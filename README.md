@@ -16,7 +16,7 @@ and removing any fields specified.
 
 ### Getting Started
 
-Download the latest Release (on the right side), open the index.html file and ready to go.
+Download the latest <a href="https://github.com/StockusNedHESA/xml-obfuscator/releases">Release</a> (on the right side), open the index.html file and ready to go.
 
 ### Setup - Development
 
@@ -24,7 +24,7 @@ Ensure that Node.js and NPM are installed and functional.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/StockusNedHESA/xml-obfuscator
    ```
 2. Install NPM packages
    ```sh
