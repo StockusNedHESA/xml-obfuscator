@@ -18,6 +18,14 @@ and removing any fields specified.
 
 Download the latest <a href="https://github.com/StockusNedHESA/xml-obfuscator/releases">Release</a> (on the right side), open the index.html file and ready to go.
 
+#### Usage
+
+Application contains two sections, forming configurations and XML viewer.
+Configuration contains:
+- Keys - What **Key** should be replaced with the **Replacement increment**
+- Randomise - What **Key** should be randomised based on the **type** and **format** should be used with <a href="https://next.fakerjs.dev/">Faker.JS</a>
+- Remove - What **Key** should be removed with the value
+
 ### Setup - Development
 
 Ensure that Node.js and NPM are installed and functional.
@@ -35,14 +43,6 @@ Ensure that Node.js and NPM are installed and functional.
    npm run dev
    npm run build
    ```
-
-### Usage
-
-Application contains two sections, forming configurations and XML viewer.
-Configuration contains:
-- Keys - What **Key** should be replaced with the **Replacement increment**
-- Randomise - What **Key** should be randomised based on the **type** and **format** should be used with <a href="https://next.fakerjs.dev/">Faker.JS</a>
-- Remove - What **Key** should be removed with the value
 
 ### Acknowledgments
 
