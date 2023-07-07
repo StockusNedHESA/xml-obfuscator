@@ -2,9 +2,9 @@
 <div align="center">
   <img src="public/favicon.png" alt="Logo" width="128" height="128">
 
-<h3 align="center">Best-README-Template</h3>
+<h3 align="center">XML Obfuscator</h3>
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Anonamise XMLs from sensitive data
   </p>
 </div>
 
