@@ -27,7 +27,7 @@ function openTab(evt: Event, type: string) {
   <div class="item config">
     <div class="tab">
       <button class="tablinks" @click="(e) => openTab(e, 'keys')">Keys</button>
-      <button class="tablinks" @click="(e) => openTab(e, 'randomise')">Randomize</button>
+      <button class="tablinks" @click="(e) => openTab(e, 'randomise')">Randomise</button>
       <button class="tablinks" @click="(e) => openTab(e, 'remove')">Remove</button>
     </div>
 

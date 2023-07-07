@@ -31,7 +31,7 @@ function insert() {
 </script>
 
 <template>
-    <div id="randomize" class="tabcontent">
+    <div id="randomise" class="tabcontent">
         <p>Key - Element name</p>
         <p>Type - Module type in <a target="_blank" href="https://next.fakerjs.dev/api/">Faker.js</a></p>
         <p>Format - What type method inside of Module type -
