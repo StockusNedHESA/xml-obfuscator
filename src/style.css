@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  font-weight: 500;
+  color: #269af2;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #1b6ba8;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+input[type="file"] {
+  width: 100%;
+}
+
+button,
+input[type="text"],
+input[type="file"]::file-selector-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #242424;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover,
+input[type="file"]::file-selector-button:hover {
+  border-color: #269af2;
+}
+
+button:focus,
+input[type="file"]::file-selector-button:focus,
+button:focus-visible,
+input[type="file"]::file-selector-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.list button,
+input[type="text"] {
+  padding: 0.2rem 0.4rem;
+  max-width: 12rem;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.seperator {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  grid-template-rows: 1fr;
+
+  width: 90vw;
+  height: 90vh;
+}
+
+.item {
+  background-color: #171717;
+  border-radius: 1rem;
+  margin: 2rem;
+  max-height: 85vh;
+  padding: 1rem;
+  position: relative;
+}
+
+.item .buttons {
+  margin-top: 0.5rem;
+}
+
+.absolute,
+.item .buttons > * {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.left,
+.item .buttons > div:first-of-type {
+  left: 1rem;
+}
+
+.right,
+.item .buttons > div:last-of-type {
+  right: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex h3 {
+  margin: 0.25rem;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
+.tab button {
+  margin-left: 0.2rem;
+  font-size: 1em;
+  padding: 0.4em 0.8em;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  max-height: calc(67vh - 1.75rem);
+  overflow: auto;
+}
+
+.tabcontent p {
+  margin: 0;
+}
+
+.active {
+  background-color: #ffffff30;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #242424;
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b6b6b6;
+}
